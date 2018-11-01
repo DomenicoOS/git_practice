@@ -1,0 +1,158 @@
+html {
+  font-family: "Helvetica", sans-serif;
+}
+
+.all {
+  position: relative;
+  top: 64px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.3rem;
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  height: 64px;
+  background-color: white;
+  z-index: 5;
+}
+
+header a img {
+  /* height: 50px; */
+}
+
+header a span {
+  /* font-size: 20px; */
+}
+
+.colmar {
+  color: #4a4a4a;
+  font-weight: bold;
+}
+
+.academy {
+
+}
+
+.logo {
+  margin-left: 24px;
+  text-decoration: none;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+nav {
+  margin-right: 24px;
+}
+
+li {
+  display: inline-flex;
+  margin-left: 16px;
+}
+
+li a {
+  text-decoration: none;
+}
+
+.mobile {
+  display: none;
+}
+
+/* Banner */
+
+.banner img {
+  width: 60%;
+  padding: 32px 24px;
+}
+
+.title {
+  width: 40%;
+}
+
+.title h1 {
+  margin-bottom: 24px;
+}
+
+.title h3 {
+  margin-bottom: 24px;
+}
+
+.button a {
+  text-decoration: none;
+}
+
+/* Info */
+
+.info {
+  width: 100%;
+
+  padding-left: 24px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  position: relative;
+}
+
+/* Info Main */
+
+.info-main {
+  flex-direction: column;
+  width: 60%;
+
+
+}
+
+.info-main img {
+  width: 100%;
+  height: auto;
+}
+
+/*.info-main img {
+  width: 60%;
+} */
+
+/* Info Side */
+
+.info-side {
+  flex-direction: column;
+  width: 40%;
+
+
+}
+
+/*.info-item {
+  width: 40%;
+} */
+
+.info-item img {
+  height: auto;
+  width: 35%;
+
+  padding-left: 40px;
+  padding-right: 24px;
+}
+
+.info-content {
+  width: 65%;
+}
+
+.info-content a {
+  text-decoration: none;
+}
